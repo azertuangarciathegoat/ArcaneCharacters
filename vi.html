@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi - Arcane</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+.bg-image {
+            background-image: url('Vi.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            min-height: 100vh;
+        }
+        .content-section {
+            background: linear-gradient(180deg, rgba(20, 20, 30, 0.95) 0%, #0d0d15 100%);
+            min-height: 100vh;
+            padding: 60px 0;
+        }
+        .content-card {
+            background: rgba(30, 30, 45, 0.9);
+            border: 1px solid #e64545;
+            border-radius: 10px;
+            padding: 40px;
+            color: #e0e0e0;
+            width: 100%;
+        }
+        .character-title {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #ff8585;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .character-subtitle {
+            font-size: 1.5rem;
+            color: #ffa8a8;
+        }
+        .navbar-custom {
+            background: rgba(20, 20, 30, 0.9);
+        }
+        .nav-link {
+            color: #e0e0e0 !important;
+        }
+        .nav-link:hover {
+            color: #ff8585 !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Arcane Characters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Caitlyn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jinx.html">Jinx</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="vi.html">Vi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="bg-image">
+        <div class="overlay d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                        <div class="content-card text-center">
+                            <h1 class="character-title">VI</h1>
+                            <p class="character-subtitle">The Piltover Enforcer</p>
+                            <hr class="border-secondary">
+                            <p class="lead mt-4">
+                                Vi is a tough, no-nonsense enforcer from the streets of Zaun 
+                                who now works alongside Caitlyn in Piltover. With her powerful 
+                                hextech gauntlets, she fights for justice while navigating the 
+                                complex relationship between the two cities.
+                            </p>
+                            <p>
+                                Equipped with her pink hextech gauntlets, Vi is a force of nature 
+                                in combat. She's fiercely loyal to her friends and will do 
+                                whatever it takes to protect Zaun and Piltover from those who 
+                                would do harm.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+                <div class="col-12">
+                    <div class="content-card">
+                        <h2 class="text-center mb-4" style="color: #ff8585;">About Vi</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="text-light">Biography</h4>
+                                <p class="text-light">Vi was once a street kid in Zaun, learning to fight to survive. After being taken in by Professor Heimerdinger, she became a key member of the Piltover Police Force. Her tough exterior hides a loyal heart.</p>
+                                <h4 class="text-light mt-4">Abilities</h4>
+                                <ul class="text-light">
+                                    <li>Hextech Gauntlets - Powerful pink energy-fist weapons</li>
+                                    <li>Dockage - Massive area knockback</li>
+                                    <li>Flash - Forward dash with power</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="text-light">Allies & Enemies</h4>
+                                <p class="text-light">Vi works alongside Caitlyn as her partner. Her complicated past with Jinx (who she once knew as Powder) drives her to protect the innocent.</p>
+                                <h4 class="text-light mt-4">Quotes</h4>
+                                <blockquote class="blockquote">
+                                    <p class="text-light fst-italic">"Let's break some heads!"</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="index.html" class="btn btn-outline-light btn-lg me-2">Prev: Caitlyn</a>
+                            <a href="jinx.html" class="btn btn-outline-light btn-lg">Prev: Jinx</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
